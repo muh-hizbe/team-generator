@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.95063564a8ffd46afd5291c85a8a8c48.js"
+  "/precache-manifest.69de89f2caf8efa7670eeb8ce9659fde.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "team-generator"});

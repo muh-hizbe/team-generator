@@ -62,7 +62,7 @@ export default {
             const array = this.data.split('\n');
             const randomOrder = array.sort(() => 0.5 - Math.random())
 
-            const hasil = this.chunkArray(randomOrder, this.team)
+            const hasil = this.chunkArray(randomOrder, Math.abs(this.team))
             this.teams = hasil
             console.log(hasil);
         },
